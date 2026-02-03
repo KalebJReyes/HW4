@@ -11,7 +11,7 @@ public class Pipes : MonoBehaviour
     {
         _transform.Translate(Vector3.left * Time.deltaTime * _speed);
 
-        if (_transform.position.x < -11) {
+        if (_transform.position.x < -15) {
             Destroy(gameObject);
         }
     }
